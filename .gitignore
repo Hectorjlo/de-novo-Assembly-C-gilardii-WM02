@@ -1,0 +1,54 @@
+# Raw and processed sequencing data
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.fasta.gz
+*.fa.gz
+
+# Alignment, index, and mapping files
+*.sam
+*.bam
+*.bai
+*.bt2
+*.bt2l
+*.bwt
+*.sa
+*.pac
+*.ann
+*.amb
+*.fai
+
+# Assembly graphs, models, and large intermediate files
+*.fastg
+*.gfa
+*.delta
+*.icm
+*.train
+*.longorfs
+
+# BLAST databases and raw query hits
+*.blastn_m*.txt
+*.nhr
+*.nin
+*.nsq
+*.ndb
+*.not
+*.ntf
+*.nto
+
+# Execution logs and temporary files
+nohup.out
+*.log
+*.tmp
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python and Jupyter artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

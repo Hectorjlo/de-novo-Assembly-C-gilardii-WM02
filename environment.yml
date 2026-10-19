@@ -1,0 +1,23 @@
+name: assembly-gilardii
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastqc>=0.11.9
+  - trim-galore>=0.6.7
+  - trimmomatic>=0.39
+  - velvet>=1.2.10
+  - unicycler>=0.5.0
+  - flye>=2.9
+  - canu>=2.2
+  - quast>=5.2.0
+  - bowtie2>=2.5.0
+  - samtools>=1.17
+  - pilon>=1.24
+  - mummer4>=4.0.0
+  - blast>=2.14.0
+  - glimmer>=3.02
+  - checkm-genome>=1.2.2
+  - prokka>=1.14.6
+  - python>=3.9
